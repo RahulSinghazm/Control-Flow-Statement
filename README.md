@@ -32,4 +32,10 @@ of the block......
 Condition return true it execute the block otherwise skip the execution of the block.
 
 <pre>
+print('Begin')
+a=input('Enter the Positive no.:')
+b=int(a)
+if b<10:
+    print('Given no. is one digit no.')
+
 </pre>
