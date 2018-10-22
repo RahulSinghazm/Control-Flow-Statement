@@ -4,8 +4,8 @@ a Python program is regulated by conditional statements, loops, and function cal
 covers the if statement and for and while loops; functions are covered later in this chapter.
 Raising and handling exceptions also affects control flow
 * Python supports two type of control flow statement:
-1> Conditional Statement
-2>Looping Statement
+* 1> Conditional Statement
+* 2>Looping Statement
 
 ### 1> Conditional Statement:
 
@@ -21,12 +21,13 @@ of the block......
           OR
           
           if condition:
-          statement1
-          statement2
+          statement 1
+          statement 2
           .
           .
           .
           .
+          statement n
 </pre>
 Condition return true it execute the block otherwise skip the execution of the block.
 
