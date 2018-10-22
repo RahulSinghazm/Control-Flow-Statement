@@ -30,7 +30,7 @@ of the block......
           statement n
 </pre>
 Condition return true it execute the block otherwise skip the execution of the block.
-
+#### Example:
 <pre>
 print('Begin')
 a=input('Enter the Positive no.:')
@@ -39,3 +39,8 @@ if b<10:
     print('Given no. is one digit no.')
 
 </pre>
+#### Output:
+<pre>
+Begin
+Enter the Positive no.:5
+Given no. is one digit no.</pre>
