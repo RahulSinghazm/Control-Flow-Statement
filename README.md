@@ -4,6 +4,7 @@ a Python program is regulated by conditional statements, loops, and function cal
 covers the if statement and for and while loops; functions are covered later in this chapter.
 raising and handling exceptions also affects control flow
 * Python supports two type of control flow statement:
+
 * 1> Conditional Statement
 * 2>Looping Statement
 
@@ -15,7 +16,10 @@ of the block......
 * Else
 * Elif
 <pre>
-* Syntax:
+
+### If:-
+         Condition return true it execute the block otherwise skip the execution of the block.
+* Syntax:-
           if condition: statement
           
           OR
@@ -29,8 +33,8 @@ of the block......
           .
           statement n
 </pre>
-Condition return true it execute the block otherwise skip the execution of the block.
-#### Example:
+
+#### Example:-
 <pre>
 print('Begin')
 a=input('Enter the Positive no.:')
@@ -44,3 +48,59 @@ if b<10:
 Begin
 Enter the Positive no.:5
 Given no. is one digit no.</pre>
+
+### Else:-
+*          Else block should be preceeded by if block or else-if block or while block or for block.          
+*          If else block preceeding block condition is returning false then only else block will be executed.
+
+* Syntax:-
+          if condition: 
+                    statement-1
+                    statement-2
+                    .
+                    .
+                    .
+                    .
+                    statement-n
+          else:
+                    statement-1
+                    statement-2
+                    .
+                    .
+                    .
+                    .
+                    .
+                    statement-n
+          
+#### Example:-
+<pre>
+print('Begin')
+a=input('Enter positive no.:')
+b=int(a)
+if b<10:
+    print('Given no. is one digit no.')
+else:
+    print('Given no. is >= two digit no.')
+print('End')
+
+</pre>
+
+#### Output-1:
+<pre>
+Begin
+Enter positive no.:9
+Given no. is one digit no.
+End
+</pre>
+
+#### Output-2:
+<pre>
+Begin
+Enter positive no.:10
+Given no. is >= two digit no.
+End
+</pre>
+
+
+
+
