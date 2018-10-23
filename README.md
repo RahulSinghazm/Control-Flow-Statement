@@ -15,7 +15,6 @@ raising and handling exceptions also affects control flow
 * If
 * Else
 * Elif
-<pre>
 
 ### If:-
          Condition return true it execute the block otherwise skip the execution of the block.
@@ -49,13 +48,15 @@ if b<10:
 <pre>
 Begin
 Enter the Positive no.:5
-Given no. is one digit no.</pre>
+Given no. is one digit no.
+</pre>
 
 ### Else:-
 *          Else block should be preceeded by if block or else-if block or while block or for block.          
 *          If else block preceeding block condition is returning false then only else block will be executed.
 
 * Syntax:-
+<pre>
           if condition: 
                     statement-1
                     statement-2
@@ -73,7 +74,7 @@ Given no. is one digit no.</pre>
                     .
                     .
                     statement-n
-          
+    </pre>      
 #### Example:-
 <pre>
 print('Begin')
