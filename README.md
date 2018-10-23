@@ -10,8 +10,8 @@ raising and handling exceptions also affects control flow
 
 ### 1> Conditional Statement:
 
-Conditional statement are used to decide whether block as to execute or skip the execution 
-of the block......
+         Conditional statement are used to decide whether block as to execute or skip the execution 
+         of the block......
 * If
 * Else
 * Elif
@@ -19,7 +19,9 @@ of the block......
 
 ### If:-
          Condition return true it execute the block otherwise skip the execution of the block.
+        
 * Syntax:-
+<pre>
           if condition: statement
           
           OR
