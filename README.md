@@ -110,5 +110,41 @@ End
 *         Elif block proceeding block condition returns false the control will comes to elif block.
 *         After contro; is reaching elif if elif block condition return true then only it will execute elif block.
 
+#### Example:-
+<pre>
+print('Begin')
+a=input("Enter positive no.:")
+b=int(a)
+if b<10:
+    print('Given no. is one digit no.')
+elif b<100:
+    print('Given no. is two digit no.')
+elif b<1000:
+    print('Given no. is three digit no.')
+else:
+    print('Given no. is >= four digit no.')
+print('End')
+
+</pre>
 
 
+#### Output-1:
+<pre>
+Begin
+Enter positive no.:5
+Given no. is one digit no.
+End
+</pre>
+
+#### Output-2:
+<pre>
+Begin
+Enter positive no.:22
+Given no. is two digit no.
+End
+</pre>
+
+#### Output-3:
+<pre>
+
+</pre>
