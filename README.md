@@ -146,5 +146,8 @@ End
 
 #### Output-3:
 <pre>
-
+Begin
+Enter positive no.:22
+Given no. is two digit no.
+End
 </pre>
