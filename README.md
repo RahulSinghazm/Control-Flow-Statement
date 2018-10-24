@@ -8,7 +8,7 @@ raising and handling exceptions also affects control flow
 * 1> Conditional Statement
 * 2>Looping Statement
 
-### 1> Conditional Statement:
+## 1> Conditional Statement:
 
          Conditional statement are used to decide whether block as to execute or skip the execution 
          of the block......
@@ -151,3 +151,11 @@ Enter positive no.:22
 Given no. is two digit no.
 End
 </pre>
+
+
+
+# Looping Statement:
+
+                  Looping statements are used to execute set of statements repeatedly.
+                  
+** Python supports two looping statements they are........
