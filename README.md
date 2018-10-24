@@ -105,10 +105,10 @@ End
 </pre>
 
 
-##Elif:-
+## Elif:-
 *         Elif should be proceeded by either if block or another elif block.
 *         Elif block proceeding block condition returns false the control will comes to elif block.
-*        
+*         After contro; is reaching elif if elif block condition return true then only it will execute elif block.
 
 
 
