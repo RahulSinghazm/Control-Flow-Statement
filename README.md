@@ -16,7 +16,7 @@ raising and handling exceptions also affects control flow
 * Else
 * Elif
 
-### If:-
+## If:-
          Condition return true it execute the block otherwise skip the execution of the block.
         
 * Syntax:-
@@ -51,7 +51,7 @@ Enter the Positive no.:5
 Given no. is one digit no.
 </pre>
 
-### Else:-
+## Else:-
 *          Else block should be preceeded by if block or else-if block or while block or for block.          
 *          If else block preceeding block condition is returning false then only else block will be executed.
 
@@ -104,6 +104,11 @@ Given no. is >= two digit no.
 End
 </pre>
 
+
+##Elif:-
+*         Elif should be proceeded by either if block or another elif block.
+*         Elif block proceeding block condition returns false the control will comes to elif block.
+*        
 
 
 
