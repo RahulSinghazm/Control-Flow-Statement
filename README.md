@@ -158,4 +158,7 @@ End
 
                   Looping statements are used to execute set of statements repeatedly.
                   
-** Python supports two looping statements they are........
+* Python supports two looping statements they are........
+
+#### a>While loop
+#### b>For loop
