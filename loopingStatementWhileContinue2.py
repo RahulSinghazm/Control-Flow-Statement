@@ -1,6 +1,6 @@
 while True:
     name=input('Enter User Name:')
-    if name !='Rahul Singh':
+    if name !='Rahul':
         continue
     password=input('Hello , Rahul. What is the Password?')
     if password !='Singh':
