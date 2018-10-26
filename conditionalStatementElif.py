@@ -8,5 +8,5 @@ elif b<100:
 elif b<1000:
     print('Given no. is three digit no.')
 else:
-    print('Given no. is >= four digit no.')
+    print('Given no. is >= four Digit no.')
 print('End')
