@@ -1,5 +1,5 @@
 print('Begin')
-a=input('Enter positive no.:')
+a=input('Enter Positive no.:')
 b=int(a)
 if b<10:
     print('Given no. is one digit no.')
