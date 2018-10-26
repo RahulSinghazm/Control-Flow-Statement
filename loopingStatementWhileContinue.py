@@ -4,5 +4,5 @@ while a<5:
     a=a+1
     if a==3:
         continue
-    print('Welcome',a)
+    print('Welcome to Azamgarh UP',a)
 print('End')
