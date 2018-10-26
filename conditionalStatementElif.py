@@ -6,7 +6,7 @@ if b<10:
 elif b<100:
     print('Given no. is two digit no.')
 elif b<1000:
-    print('Given no. is three digit no.')
+    print('Given no. is three Digit no.')
 else:
     print('Given no. is >= four Digit no.')
 print('End')
