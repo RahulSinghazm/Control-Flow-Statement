@@ -162,3 +162,273 @@ End
 
 #### a>While loop
 #### b>For loop
+
+## While loop:-
+              While loop executes set of statement repeatedly untile condition become false.
+              
+#### Syntax:
+             while condtion:
+                   statement-1
+                   statement-2
+                   .
+                   .
+                   .
+                   statement-n
+                   
+#### Example:1
+<pre>
+                  print('Begin')
+a=1
+while a<=5:
+    print('Rahul Singh')
+    a=a+1
+print('End')
+</pre>
+
+
+#### Output:
+
+
+<pre>
+Begin
+Rahul Singh
+Rahul Singh
+Rahul Singh
+Rahul Singh
+Rahul Singh
+End
+
+#### Example:2
+
+<pre>
+print('Begin')
+a=1
+sum=0
+while a<=100:
+    print('Rahul Singh')
+    sum=sum+a
+    a=a+1
+    print(sum)
+print('End')
+
+</pre>
+
+
+#### Output:
+
+<pre>
+Begin
+Rahul Singh
+1
+Rahul Singh
+3
+Rahul Singh
+6
+Rahul Singh
+10
+Rahul Singh
+15
+Rahul Singh
+21
+Rahul Singh
+28
+Rahul Singh
+36
+Rahul Singh
+45
+Rahul Singh
+55
+Rahul Singh
+66
+Rahul Singh
+78
+Rahul Singh
+91
+Rahul Singh
+105
+Rahul Singh
+120
+Rahul Singh
+136
+Rahul Singh
+153
+Rahul Singh
+171
+Rahul Singh
+190
+Rahul Singh
+210
+Rahul Singh
+231
+Rahul Singh
+253
+Rahul Singh
+276
+Rahul Singh
+300
+Rahul Singh
+325
+Rahul Singh
+351
+Rahul Singh
+378
+Rahul Singh
+406
+Rahul Singh
+435
+Rahul Singh
+465
+Rahul Singh
+496
+Rahul Singh
+528
+Rahul Singh
+561
+Rahul Singh
+595
+Rahul Singh
+630
+Rahul Singh
+666
+Rahul Singh
+703
+Rahul Singh
+741
+Rahul Singh
+780
+Rahul Singh
+820
+Rahul Singh
+861
+Rahul Singh
+903
+Rahul Singh
+946
+Rahul Singh
+990
+Rahul Singh
+1035
+Rahul Singh
+1081
+Rahul Singh
+1128
+Rahul Singh
+1176
+Rahul Singh
+1225
+Rahul Singh
+1275
+Rahul Singh
+1326
+Rahul Singh
+1378
+Rahul Singh
+1431
+Rahul Singh
+1485
+Rahul Singh
+1540
+Rahul Singh
+1596
+Rahul Singh
+1653
+Rahul Singh
+1711
+Rahul Singh
+1770
+Rahul Singh
+1830
+Rahul Singh
+1891
+Rahul Singh
+1953
+Rahul Singh
+2016
+Rahul Singh
+2080
+Rahul Singh
+2145
+Rahul Singh
+2211
+Rahul Singh
+2278
+Rahul Singh
+2346
+Rahul Singh
+2415
+Rahul Singh
+2485
+Rahul Singh
+2556
+Rahul Singh
+2628
+Rahul Singh
+2701
+Rahul Singh
+2775
+Rahul Singh
+2850
+Rahul Singh
+2926
+Rahul Singh
+3003
+Rahul Singh
+3081
+Rahul Singh
+3160
+Rahul Singh
+3240
+Rahul Singh
+3321
+Rahul Singh
+3403
+Rahul Singh
+3486
+Rahul Singh
+3570
+Rahul Singh
+3655
+Rahul Singh
+3741
+Rahul Singh
+3828
+Rahul Singh
+3916
+Rahul Singh
+4005
+Rahul Singh
+4095
+Rahul Singh
+4186
+Rahul Singh
+4278
+Rahul Singh
+4371
+Rahul Singh
+4465
+Rahul Singh
+4560
+Rahul Singh
+4656
+Rahul Singh
+4753
+Rahul Singh
+4851
+Rahul Singh
+4950
+Rahul Singh
+5050
+End
+</pre>
+
+#### Example:3
+
+<pre>
+
+</pre>
+
+#### Output:
+
+<pre>
+
+</pre>
