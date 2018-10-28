@@ -424,6 +424,33 @@ End
 #### Example:3
 
 <pre>
+print('Begin')
+a=1
+while a<=5:
+    print('Welcome')
+    a=a+1
+else:
+    print('In while else')
+print('End')
+
+</pre>
+
+#### Output:
+
+<pre>
+Begin
+Welcome
+Welcome
+Welcome
+Welcome
+Welcome
+In while else
+End
+</pre>
+
+#### Example:4
+
+<pre>
 
 </pre>
 
