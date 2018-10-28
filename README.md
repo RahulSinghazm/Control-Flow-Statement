@@ -453,7 +453,7 @@ End
           Break is a statement, which can be used in looping statement. whenever control reach to the break 
           statements of loops then without executing the loop, control will comes out from the loop.
           
-#### Example:4
+#### Example:1
 
 <pre>
 print('Begin')
@@ -477,3 +477,34 @@ Welcome
 Welcome
 End
 </pre>
+
+
+#### Example:2
+
+<pre>
+print('Begin')
+a=1
+while True:
+    print("Welcome")
+    if a==4:
+        break
+    a=a+1
+print('End')
+
+</pre>
+
+#### Output:
+
+<pre>
+Begin
+Welcome
+Welcome
+Welcome
+Welcome
+End
+</pre>
+
+### Continue:
+                  Continue is a statements, which can be used in looping statements.
+* Whenever control reach to the continue statements of the looping statement then without 
+  executing the remaining partof iteration, control will go to the next iteration.
