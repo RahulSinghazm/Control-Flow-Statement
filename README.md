@@ -448,14 +448,32 @@ In while else
 End
 </pre>
 
+### Break:-
+
+          Break is a statement, which can be used in looping statement. whenever control reach to the break 
+          statements of loops then without executing the loop, control will comes out from the loop.
+          
 #### Example:4
 
 <pre>
+print('Begin')
+a=1
+while a<=5:
+    print('Welcome')
+    if a==2:
+        break
+    a=a+1
+else:
+    print('In while else')
+print('End')
 
 </pre>
 
 #### Output:
 
 <pre>
-
+Begin
+Welcome
+Welcome
+End
 </pre>
