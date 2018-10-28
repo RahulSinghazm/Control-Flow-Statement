@@ -10,14 +10,14 @@ raising and handling exceptions also affects control flow
 
 ## 1> Conditional Statement:
 
-         Conditional statement are used to decide whether block as to execute or skip the execution 
-         of the block......
+ Conditional statement are used to decide whether block as to execute or skip the execution 
+ of the block......
 * If
 * Else
 * Elif
 
 ## If:-
-         Condition return true it execute the block otherwise skip the execution of the block.
+Condition return true it execute the block otherwise skip the execution of the block.
         
 * Syntax:-
 <pre>
@@ -156,7 +156,7 @@ End
 
 # Looping Statement:
 
-                  Looping statements are used to execute set of statements repeatedly.
+Looping statements are used to execute set of statements repeatedly.
                   
 * Python supports two looping statements they are........
 
@@ -164,7 +164,7 @@ End
 #### b>For loop
 
 ## While loop:-
-              While loop executes set of statement repeatedly untile condition become false.
+While loop executes set of statement repeatedly untile condition become false.
               
 #### Syntax:
              while condtion:
@@ -452,8 +452,8 @@ End
 
 ### Break:-
 
-          Break is a statement, which can be used in looping statement. whenever control reach to the break 
-          statements of loops then without executing the loop, control will comes out from the loop.
+ Break is a statement, which can be used in looping statement. whenever control reach to the break 
+ statements of loops then without executing the loop, control will comes out from the loop.
           
 #### Example:1
 
@@ -539,11 +539,31 @@ End
 #### Example:2
 
 <pre>
+while True:
+    name=input('Enter user name:')
+    if name !='Rahul':
+        continue
+    password=input('Hello , Rahul. What is the password?')
+    if password !='Singh':
+        break
+    print('Access Granted')
 
 </pre>
 
-#### Output:
+#### Output:1
 
 <pre>
+Enter user name:Rohit
+Enter the correct User Name
+Enter user name:Rahul
+Hello , Rahul. What is the password?Shyam
+</pre>
 
+#### Output:1
+
+<pre>
+Enter user name:Rahul
+Hello , Rahul. What is the password?Singh
+Access Granted
+Enter user name:
 </pre>
