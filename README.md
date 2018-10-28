@@ -198,6 +198,8 @@ Rahul Singh
 Rahul Singh
 End
 
+</pre>
+
 #### Example:2
 
 <pre>
@@ -505,6 +507,43 @@ End
 </pre>
 
 ### Continue:
-                  Continue is a statements, which can be used in looping statements.
+* Continue is a statements, which can be used in looping statements.
 * Whenever control reach to the continue statements of the looping statement then without 
   executing the remaining partof iteration, control will go to the next iteration.
+
+#### Example:1
+
+<pre>
+print('Begin')
+a=0
+while a<5:
+    a=a+1
+    if a==3:
+        continue
+    print('Welcome',a)
+print('End')
+
+</pre>
+
+#### Output:
+
+<pre>
+Begin
+Welcome 1
+Welcome 2
+Welcome 4
+Welcome 5
+End
+</pre>
+
+#### Example:2
+
+<pre>
+
+</pre>
+
+#### Output:
+
+<pre>
+
+</pre>
