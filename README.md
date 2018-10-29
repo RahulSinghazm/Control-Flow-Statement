@@ -571,7 +571,7 @@ Enter user name:
 ## For loop:-
 For loop executes set of statements with respect to every element of given iterable object.
 
-Syntax:
+### Syntax:
 <pre>
 for var in iterable_object:
 statement-1
