@@ -567,3 +567,91 @@ Hello , Rahul. What is the password?Singh
 Access Granted
 Enter user name:
 </pre>
+
+## For loop:-
+For loop executes set of statements with respect to every element of given iterable object.
+
+Syntax:
+<pre>
+for var in iterable_object:
+statement-1
+..........................
+..........................
+statement-n
+</pre>
+
+#### Example:
+<pre>
+a="Rahul"
+print(a)
+for b in a:
+print(b)
+</pre>
+
+#### Output:
+<pre>
+RRR
+aaa
+hhh
+uuu
+lll
+</pre>
+
+#### Example:
+<pre>
+a=range(10)
+for b in a:
+    print(b)
+d=range(10,20)
+for c in d:
+    print(c)
+e=range(20,30,2)
+for f in e:
+    print(f)
+g=range(40,30,-1)
+for h in g:
+    print(h)
+
+</pre>
+
+#### Output:
+<pre>
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+22
+24
+26
+28
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+</pre>
+
+* Apply a common logic on objectsis called as function
+* Applying a particular logic on object is called as method.
