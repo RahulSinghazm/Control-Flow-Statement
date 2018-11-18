@@ -653,5 +653,5 @@ for h in g:
 31
 </pre>
 
-* Apply a common logic on objectsis called as function
+**Apply a common logic on objectsis called as function
 * Applying a particular logic on object is called as method.
