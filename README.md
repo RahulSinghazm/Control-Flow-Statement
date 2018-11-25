@@ -6,7 +6,7 @@ raising and handling exceptions also affects control flow
 * Python supports two type of control flow statement:
 
 * 1> Conditional Statement
-* 2>Looping Statement
+* 2) Looping Statement
 
 ## 1) Conditional Statement:
 
