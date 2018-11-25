@@ -5,8 +5,8 @@ covers the if statement and for and while loops; functions are covered later in 
 raising and handling exceptions also affects control flow
 * Python supports two type of control flow statement:
 
-* 1) Conditional Statement
-* 2) Looping Statement
+* 1)Conditional Statement
+* 2)Looping Statement
 
 ## 1) Conditional Statement:
 
